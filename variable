@@ -1,0 +1,7 @@
+GenericsClass<String> obj = new GenericsClass<>();
+                                                 ^
+    reason: inference variable T has incompatible bounds
+      equality constraints: String
+      lower bounds: Number
+  where T is a type-variable:
+    T extends Number declared in class GenericsClass
